@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Conv_Ubuntu-Light';
+	src: url('../fonts/Ubuntu-Light.eot');
+	src: url('../fonts/Ubuntu-Light.woff') format('woff'), url('../fonts/Ubuntu-Light.ttf') format('truetype'), url('../fonts/Ubuntu-Light.svg') format('svg');
+}
+html,
+body {
+	font-family: 'Conv_Ubuntu-Light';
+}
+.borderless table {
+    border:none;
+}
+.div_patients{
+	display:none;
+	visibility: hidden;
+	opacity: 0;
+}
+#patients:hover + .div_patients{
+	background-color:white;
+	display:block;
+	opacity: 1;
+  	visibility: visible;
+}
+
+.div_patients ul
+{
+	text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+}
